@@ -1,5 +1,7 @@
 # **FracScan - AI-Powered Bone Fracture Detection**
 
+![FracScan Logo](https://github.com/AhmedAshraf442/Graduation-Project---Deep-Learning-for-Bone-Fractures/blob/49cdda28938bd08e4fd48b68b99a3c6c4b567980/Screenshot%202025-02-10%20144700.png)
+
 ## **Overview**
 FracScan is a deep learning-based system for detecting and classifying bone fractures from X-ray images. It leverages state-of-the-art CNN models such as **ResNet-152, InceptionV3, EfficientNetB1/B5/B6, and YOLOv8** to provide accurate fracture detection and severity classification.
 
@@ -55,7 +57,7 @@ pip install -r requirements.txt
 | EfficientNet-B5 | 93%        | MURA + LERA |  
 | ResNet-152     | 67%        | VinDr-SpineXR |  
 | EfficientNet-B6 | 96%        | Bone Fracture Type |  
-| YOLOv8-L       | 58 mAP     | Wrist |  
+| YOLOv8-L       | 58 mAP     | GRAZPEDWRI-DX |  
 
 ## **Deployment**
 FracScan offers a web-based interface where users can upload X-ray images and receive real-time fracture analysis. The system is built using **Django (backend), Flask (API), and TensorFlow (model inference).**  
