@@ -55,7 +55,7 @@ pip install -r requirements.txt
 | EfficientNet-B5 | 93%        | MURA + LERA |  
 | ResNet-152     | 67%        | VinDr-SpineXR |  
 | EfficientNet-B6 | 96%        | Bone Fracture Type |  
-| YOLOv8-L       | 58 mAP     | GRAZPEDWRI-DX |  
+| YOLOv8-L       | 58 mAP     | Wrist |  
 
 ## **Deployment**
 FracScan offers a web-based interface where users can upload X-ray images and receive real-time fracture analysis. The system is built using **Django (backend), Flask (API), and TensorFlow (model inference).**  
